@@ -3,10 +3,10 @@
 
   angular
     .module('fandata')
-    .directive('acmeNavbar', acmeNavbar);
+    .directive('fdNavbar', fdNavbar);
 
   /** @ngInject */
-  function acmeNavbar() {
+  function fdNavbar() {
     var directive = {
       restrict: 'E',
       templateUrl: 'app/components/navbar/navbar.html',

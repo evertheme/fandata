@@ -1,3 +1,48 @@
-.acme-navbar-text{
-  color: white;
+.aside-footer {
+  display: none;
+}
+
+.aside-backdrop {
+  background-color: rgba(0,0,0,.67);
+}
+
+.aside {
+  .aside-dialog {
+    .aside-body {
+      padding: 0;
+    }
+  }
+}
+
+#FdNavbar {
+  .navbar-toggle {
+    display: inline-block;
+  }
+}
+
+.fd-aside-list {
+  .list-group-item {
+    &:first-child {
+      border-radius: 0;
+      border-top: 0;
+    }
+    &:last-child {
+      border-radius: 0;
+    }
+  }
+}
+
+.fd-link-button {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  margin-bottom: 9px;
+  font-size: 12px;
+  &:hover {
+    text-decoration: none;
+    background-color: #eee;
+  }
+  span {
+    color: #999;
+  }
 }
